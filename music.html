@@ -24,11 +24,10 @@ layout: default_squares
           <img src="img/{{ album.img }}" alt="Image" class="album-img img-fluid">
         </div>
         <div class="col-xs-12">
-          <ul class="tm-ul-plus">
+          <ul class="album-item">
             {% for item in album.list %}
             <li> {{ item.title }} {% if item.year %}({{ item.year }}){% endif %}
             <audio src="music/{{ item.filename }}" preload="auto" />
-            }
             </li>
             {% endfor %}
           </ul>

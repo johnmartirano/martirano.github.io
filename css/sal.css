@@ -85,21 +85,27 @@ div.header-simg-div {
 /********************************************
  * Navigation navbar
  */
+button.navbar-toggler {
+    color: red !important;
+}
+span.navbar-toggler-icon {
+    color: red !important;
+}
 #trans-div { 
     background-color: rgba(255,255,255,0.75);
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 3px;
-    padding-right: 20px;
+    padding-right: 10px;
     position: relative;
-    bottom: 20px;
-    left: 20px;
+    bottom: 10px;
+    left: 10px;
     border-radius: 8px;
 }
 .navbar-brand-sal { 
-	color: #0264cf;
-	font-size: 1.1rem; 
-  font-weight: 900;
-  text-shadow: #ffffff 1px 0 10px;
+   color: #0264cf;
+   font-size: 1.1rem; 
+   font-weight: 900;
+   text-shadow: #ffffff 1px 0 10px;
 }
 img#nav-spacer-img {
 	margin-bottom: 20px;
@@ -444,21 +450,9 @@ button:focus { outline: none; }
 	width: 100%;
 }
 
-.tm-ul-plus {
-    line-height: 2.1;
-    list-style: none;    
-    margin: 0;
-    padding: 0;
-}
-
-.tm-ul-plus li:before {
-    content: "+";
-    margin-right: 4px;
-}
-
 
 /****************************************
- * music
+ * music, albums
  */
 div#album-list.accordion {
 	max-width: 640px;
@@ -505,11 +499,24 @@ img.album-img {
 div#album-list blockquote {
   text-align: center;
   font-size: 1rem;
+}
 */
+ul.album-item {
+    line-height: 1.7;
+    list-style: none;    
+    margin: 0;
+    padding: 10px 5px;
+}
+ul.album-item li {
+    padding: 5px 0px;
+}
+ul.album-item li:before {
+    content: "+";
+    margin-right: 4px;
 }
 
 div.audiojs {
-    width: 150px;
+    width: 300px;
 }
 .audiojs .scrubber {
     background: none repeat scroll 0 0 #5A5A5A;
@@ -745,6 +752,17 @@ p.footer-credit {
     font-size: 1.4rem; 
     font-weight: 800;
   }
+
+  ul.album-item {
+      padding: 10px 8px;
+  }
+  div.audiojs {
+      width: 400px;
+  }
+  .audiojs .scrubber {
+      width: 250px;
+  }
+
 	.tm-social-link {
 		font-size: 1.5em;
 		width: 50px;
@@ -772,6 +790,17 @@ p.footer-credit {
     display: block; 
     float: right;
   }
+
+  ul.album-item {
+      padding: 10px 10px;
+  }
+  div.audiojs {
+      width: 480px;
+  }
+  .audiojs .scrubber {
+      width: 330px;
+  }
+
   li.footer-nav {
     font-size: 1.3rem;
   }
@@ -816,6 +845,13 @@ p.footer-credit {
 		    -webkit-flex-direction: row;
 		        flex-direction: row;
 	}
+
+  div.audiojs {
+      width: 600px;
+  }
+  .audiojs .scrubber {
+      width: 450px;
+  }
 
 	.salmar-text-box-outer { padding: 40px 40px; }
   li.footer-nav {
