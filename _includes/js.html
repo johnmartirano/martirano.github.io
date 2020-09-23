@@ -28,23 +28,20 @@
                     gallery:{enabled:true}                
                 });
 
-                // Tabs
-                // http://stackoverflow.com/questions/11645081/how-to-build-simple-tabs-with-jquery
-                $('.tm-tab-content-box').hide();                
-                //$('#tab1C').fadeIn('slow');
-                $('#tab1C').show();
+                var scrollFunc = function () {
+                    let cur_card = this.querySelector(".collapse.show").parentElement;
+                    let header_offset = 45;
+                    let card_position = cur_card.offsetTop;
+                    let offset_position = card_position - header_offset;
 
-                $('.tm-tab-link').on("click",function(){
-                  
-                    var t = $(this).attr('id');
-                    
-                    $('.tm-tab-link').removeClass('active');
-                    $(this).addClass('active');                    
+                    window.scrollTo({
+                        top: offset_position,
+                        behavior: "smooth"
+                    });
+                };
 
-                    $('.tm-tab-content-box').hide();
-                    $('#'+ t + 'C').fadeIn('slow');
-                
-                });
+                $('#album-list').on('shown.bs.collapse', scrollFunc);
+                $('#smdc-faq').on('shown.bs.collapse', scrollFunc);
 
                 // Remove preloader
                 // https://ihatetomatoes.net/create-custom-preloading-screen/

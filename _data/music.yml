@@ -1,4 +1,4 @@
-- album: "O, O, O, O,<br/> That Shakespeherian Rag"
+- album: "O, O, O, O, That Shakespeherian Rag"
   intro: "Thomas Hilbish conducting the Princeton Chamber Singers.<br/>Composer's Recordings Inc. (#164)"
   img: img-11-04.jpg
   list:
@@ -48,7 +48,7 @@
     filename: "OOOO/Cocktail_Music.mp3"
 
 
-- album: "Salvatore Martirano:<br/>Retrospective<br/>1963 - 1993"
+- album: "Salvatore Martirano: Retrospective 1963 - 1993"
   intro: Computer Music Series, CDCM Records
   img: img-11-03.jpg
   list:
@@ -95,7 +95,7 @@
     - title: "Agnus Dei"
       filename: Salvatore_Martirano_Mass/05.mp3
 
-- album: "Phleu for Amplified<br/> Flute and YahaSALmaMAC<br/> MIDI Orchestra"
+- album: "Phleu for Amplified Flute and YahaSALmaMAC MIDI Orchestra"
   intro: NEUMA Records
   img: img-11-01.jpg
   list: 
@@ -127,7 +127,7 @@
       year: 1988
       filename: LON/03.mp3
 
-- album: "CDCM Computer Music<br/> Series Vol. 3"
+- album: "CDCM Computer Music Series Vol. 3"
   intro: "For Amplified Zeta Violin, Dorothy Martirano<br/>and The yahaSALmaMAC MIDI orchestra<br/>Centaur CD, CRC 2045"
   img: img-11-06.jpg
   list:
@@ -141,14 +141,14 @@
     - title: "Thrown"
       filename: Intersections/01.mp3
 
-- album: "The New American<br/> Scene Vol. 3"
+- album: "The New American Scene Vol. 3"
   intro: "Cleveland Chamber Symphony<br/>Edwin London, Music Director<br/>Albany Records"
   img: img-11-08.jpg
   list:
     - title: "Isabela"
       filename: American/01.mp3
 
-- album: "CDCM Computer Music<br/> Series Volume 14"
+- album: "CDCM Computer Music Series Volume 14"
   intro: "The Virtuoso in the Computer Age -- IV<br/>for Amplified Flute, Clarinet and Double Bass and Synthetic Orchestra<br/>Flute: Tim Lane<br/>Clarinet: Eric Mandat<br/>Double Bass: Michael Cameron"
   img: img-11-09.jpg
   list:
@@ -165,7 +165,7 @@
     - title: "BC - AD II"
       filename: Life_Field/06.mp3
 
-- album: "Italian-American<br/> Electronic Music Dramas"
+- album: "Italian-American Electronic Music Dramas"
   intro: "Emergent Music And Visual Music: Inside Studies, CD 2<br/>Music Synthesizer duet by<br/>Ron Pellegrino, ARP 2600 Synthesizer, Two Synth AKSs and Buchla 200 Series<br/>Sal Martirano, SalMar construction"
   img: img-11-12.jpg
   list:
