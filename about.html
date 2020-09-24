@@ -112,7 +112,7 @@ layout: default_rects
                                 <li>{{ item.year}} - {{ item.award }}</li><br/>
                                 {% endfor %}
                             </ul>
-            </div> <!-- row -->
+            </div> 
 
             <p><br/></p>
 
@@ -124,6 +124,18 @@ layout: default_rects
                                 {% endfor %}
                             </ul>
             </div>
+
+            <p><br/></p>
+
+            <div class="tm-services-box">
+                <h2 class="tm-black-text tm-services-title">List of Publishers</h2>
+                            <ul>
+                                {% for item in site.data.publishers %}
+                                <li>{{ item.publisher}}</li><br/>
+                                {% endfor %}
+                            </ul>
+            </div>
+
             <br/>
 
 
