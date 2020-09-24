@@ -86,7 +86,7 @@ div.header-simg-div {
  * Navigation navbar
  */
 button.navbar-toggler {
-    color: red !important;
+    background-color: #0264cf !important;
 }
 span.navbar-toggler-icon {
     color: red !important;
